@@ -11,7 +11,6 @@ import com.itextpdf.tool.xml.XMLWorkerHelper;
 import org.commonmark.parser.Parser;
 import org.commonmark.renderer.html.HtmlRenderer;
 
-//comment
 public class markdownNote {
     private JFrame frame;
     private JTextArea textArea;

@@ -6,8 +6,8 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/panha/Downloads/Telegram Desktop/xmlworker-5.5.13.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/panha/Downloads/Telegram Desktop/itextpdf-5.5.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/panha/Downloads/Telegram Desktop/commonmark-0.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/External Jar/xmlworker/xmlworker-5.5.13.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/External Jar/Commonmark/commonmark-0.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/External Jar/iTextPDF/itextpdf-5.5.9.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
