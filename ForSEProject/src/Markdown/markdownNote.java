@@ -113,7 +113,7 @@ public class markdownNote {
                 try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileToSave + ".txt"))) {
                     writer.write(textArea.getText());
                     JOptionPane.showMessageDialog(frame, "File saved successfully!");
-                } catch (IOException ex) {
+                } catch (IOException e) {
                     JOptionPane.showMessageDialog(frame, "Error saving file.", "Error", JOptionPane.ERROR_MESSAGE);
                 }
             } else if (format.equals("pdf")) {
@@ -133,7 +133,7 @@ public class markdownNote {
                     XMLWorkerHelper.getInstance().parseXHtml(writer, pdfDocument, new StringReader(htmlContent));
                     pdfDocument.close();
                     JOptionPane.showMessageDialog(frame, "PDF saved successfully!");
-                } catch (DocumentException | IOException ex) {
+                } catch (DocumentException | IOException e) {
                     JOptionPane.showMessageDialog(frame, "Error saving PDF.", "Error", JOptionPane.ERROR_MESSAGE);
                 }
             }
